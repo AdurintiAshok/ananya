@@ -1,0 +1,82 @@
+body
+{
+    margin:0px;
+    padding: 0px;
+    background-image:url("myloe.jpg");
+       background-attachment: fixed;
+       background-size: cover;
+}
+.border
+{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background:rgba(255, 255, 255, 0.5);
+width:500px;
+height:300px;
+border-radius:10px;
+}
+.maths
+{
+    margin-left:160px;
+}
+.science
+{
+    margin-left:160px;
+}
+.maths,.science
+{
+    margin-top:35px;
+}
+.button input
+{
+    margin-left:200px;
+    margin-top:20px;
+    border-radius:10px;
+    background-color:bisque;
+}
+input{
+        border: 0;
+        outline: 0;
+        background: transparent;
+        border-bottom: 1px solid black;
+      }
+*
+{
+    margin-top:10px;
+}
+.hi
+{
+    background-image:url("love1234.jpg");
+    background-size: cover;
+}
+::placeholder
+{
+    color:black;
+    opacity:1px;
+}
+audio{
+      margin-top:11%;
+      margin-left:56%;
+      width:15%;
+}
+audio::-webkit-media-controls-play-button{
+    background-color:sandybrown;}
+h2{
+    stroke:slategray;
+    margin-top:4%;
+    margin-left:27%;
+    display:inline-block;
+    color:rgb(126, 122, 125);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    width:80px;
+    height:80px;
+}
+h3{
+    color:rgb(255, 255, 255);
+    margin-left:28%;
+    width:500px;
+}
