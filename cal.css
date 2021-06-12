@@ -5,7 +5,6 @@ body
     background-image:url("myloe.jpg");
        background-attachment: fixed;
        background-size: cover;
-    flex-wrap:wrap;
 }
 .border
 {
