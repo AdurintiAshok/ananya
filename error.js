@@ -7,10 +7,10 @@ function login(){
     }
     else if(x=="" && y=="")
     {
-        alert("Enter Cheyyali kada");
+        alert("please enter correct details");
     }
     else
     {
-        alert("correct enter cheyee");
+        alert("please enter correct details");
     }
 }
