@@ -137,7 +137,7 @@ img{
             height:40%;
             box-shadow:1px 2px 3px 4px white;
             background-size:100% 100%;
-            animation:slider 15s infinite linear;
+            animation:slider 9s infinite linear;
             border-radius:15px;
         }
             @keyframes slider{
