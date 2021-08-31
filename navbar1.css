@@ -125,3 +125,27 @@ img{
     font-style:normal;
     opacity:1px;
 }
+.animation
+        {
+            background-image:url("https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?cs=srgb&dl=pexels-designecologist-1779487.jpg&fm=jpg");
+            position:absolute;
+            left:50%;
+            top:50%;
+            transform:translate(-50%,-50%);
+            background-size:100% 800%;
+            width:50%;
+            height:40%;
+            box-shadow:1px 2px 3px 4px white;
+            background-size:100% 100%;
+            animation:slider 10s infinite linear;
+            border-radius:15px;
+        }
+            @keyframes slider{
+                100%{background-image:url("https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?cs=srgb&dl=pexels-pixabay-267394.jpg&fm=jpg");}
+                35%{background-image:url("https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?cs=srgb&dl=pexels-pixabay-267394.jpg&fm=jpg");}
+                75%{background-image:url("https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?cs=srgb&dl=pexels-thisisengineering-3862132.jpg&fm=jpg");}
+
+                
+            }
+
+    
