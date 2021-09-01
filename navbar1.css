@@ -2,7 +2,7 @@ body,html
 {
     padding:0;
     margin:0;
-    background-color:black;
+    background-image:url("back.png");
     background-size:cover;
     width:100%;
 }
